@@ -22,6 +22,7 @@ __version__ = '0.2.2'
 # `datasets_url` and `temporary_dir` can be set by the user using:
 # >>> mnist.datasets_url = 'http://my.mnist.url'
 # >>> mnist.temporary_dir = lambda: '/tmp/mnist'
+# mnist 데이터 셋을 저장하고 파싱하는 기능 
 datasets_url = 'http://yann.lecun.com/exdb/mnist/'
 temporary_dir = tempfile.gettempdir
 
